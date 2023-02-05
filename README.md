@@ -4,7 +4,7 @@
 consts.js contains "cotnractAddress" and "abi" which are fetched from:
 https://github.com/oktaykurt/hardhat-fund-me-fcc
 
-ethers-5.1.esm.min.js can be accessed from due future updades at ethers:
+ethers-5.1.esm.min.js can be accessed from due future updates at ethers:
 https://docs.ethers.org/v5/single-page/
 
 
