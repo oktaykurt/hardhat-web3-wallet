@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Web3 Wallet</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+      h1 {
+        margin-bottom: 50px;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+      }
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+        margin-top: 50px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      #connect {
+        background-color: lightblue;
+      }
+      #fund, #withdraw {
+        background-color: lightgreen;
+      }
+      #getBalance {
+        background-color: lightgray;
+      }
+      label, input {
+        font-size: 16px;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="/index.js" type="module"></script>
+    <h1>Web3 Wallet</h1>
+
+    <div class="container">
+      <button id="connectButton">Connect</button>
+    </div>
+
+    <div class="container">
+      <label for="amount">Amount (ETH):</label>
+      <input type="number" id="ethAmount" placeholder="0.1" />
+    </div>
+
+    <div class="buttons">
+      <button id="fundButton">Fund</button>
+      <button id="withdrawButton">Withdraw</button>
+    </div>
+
+    <div class="container">
+      <button id="getBalanceButton">Get Balance</button>
+    </div>
+  </body>
+</html>
